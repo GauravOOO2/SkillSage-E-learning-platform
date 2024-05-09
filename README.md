@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Made By [J Gaurav Varma](https://www.linkedin.com/in/gaurav-varm-oo21/)
 
-## Available Scripts
+# SkillSage E-learning-platform UI
 
-In the project directory, you can run:
+- Seamlessly crafted the user interface using React and Tailwind, ensuring a visually pleasing UI.
+- The code is easily modifiable as I've maintained functional links and interactive components with buttons and links, allowing for straightforward functional enhancements.
+- Ensured the application's responsiveness across various screen sizes, maintaining functionality.
+- Programmed the UI to match the Figma design provided, preserving the company's theme and design in the application.
+- Implemented Tailwind in an organized manner for easily comprehensible styles.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies used
 
-### `yarn test`
+## Styling (Tailwind CSS)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tailwind CSS is used for styling the frontend. To learn more about the styling conventions, utility classes, and customizations made in the project, refer to the [Tailwind CSS Styling Documentation.](https://tailwindcss.com/)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ReactJS
+The project utilizes ReactJS for complete development. To understand how React JS is implemented, refer to the [Get Started with React](https://create-react-app.dev/docs/getting-started/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run the project Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Use this command to Clone the project
 
-### `yarn eject`
+```bash
+  git clone https://github.com/GauravOOO2/SkillSage-E-learning-platform.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Go to the project directory
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  cd SkillSage-E-learning-platform
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install all the dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  yarn install
+```
 
-## Learn More
+Start the server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Design File
+- [Figma Design File.](https://www.figma.com/design/Aj8hzPAAd25ViQ9GQGlZzI/Untitled-(Copy)?node-id=1-109&t=snul8eZPmTHmPecT-0)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
