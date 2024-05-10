@@ -5,15 +5,16 @@ import clsx from 'clsx';
 
 const Header = () => {
 
-  const [sideMenuOpen, SetSideMenu] = useState(false);
+  const [sideMenuOpen, setSideMenu] = useState(false);
 
   return (
     <nav className='mx-4 sm:mx-8 md:mx-12 lg:mx-16 my-8 sm:my-10 md:my-12 relative grid grid-cols-12'>
 
-      <button 
-      onClick={()=>SetSideMenu(true)}
-      className='flex justify-center items-center  lg:hidden hover:bg-gradient-to-b from-blue-900 to-blue-600   hover:text-white rounded-lg w-10 h-10 	' >
-        <svg xmlns="http://www.w3.org/2000/svg"
+      <button
+        className='flex justify-center items-center  lg:hidden hover:bg-gradient-to-b from-blue-900 to-blue-600   hover:text-white rounded-lg w-10 h-10 	' >
+        <svg
+          onClick={() => setSideMenu(true)}
+          xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
@@ -21,7 +22,6 @@ const Header = () => {
           class="
           w-6 h-6
           ">
-
           <path stroke-linecap="round"
             stroke-linejoin="round"
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -29,41 +29,42 @@ const Header = () => {
       </button>
       {/* Container */}
 
-      {/* w-full h-full lg:hidden bg-black/50 background-blur-sm top-0 right-0 */}
 
       <div className={
         clsx(
-          " fixed w-full h-full lg:hidden bg-black/50 backdrop-blur-sm top-0 right-0 -translate-x-full transition-all ",sideMenuOpen && "-translate-x-0"
+          " fixed w-full h-full lg:hidden bg-black/50 backdrop-blur-sm top-0 right-0 -translate-x-full transition-all ",
+           sideMenuOpen && 
+           "translate-x-0"
         )
       } >
 
         <section className='bg-white flex-col absolute left-0 top-0 h-screen p-8 gap-8 z-50' >
 
-          <div className='cursor-pointer' >
-          <svg 
-          onClick={()=>SetSideMenu(false)}
-          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-          </svg>
+          <div className='' >
+            <svg
+              onClick={() => setSideMenu(false)}
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
           </div>
 
           <ul className=' flex flex-col lg:flex-row pt-5 ' >
-          <li href='#' className="hover:text-[#06286E] hover:underline cursor-pointer text-gray-600 m-2 sm:m-4 font-inter font-normal leading-10 text-lg">
-            Home
-          </li>
-          <li href='#' className="hover:text-[#06286E] hover:underline cursor-pointer  text-gray-600 m-2 sm:m-4 font-inter font-normal leading-10 text-lg">
-            Flashcard
-          </li>
-          <li href='#' className="hover:text-[#06286E] hover:underline cursor-pointer text-gray-600 m-2 sm:m-4 font-inter font-normal leading-10 text-lg">
-            Contact
-          </li>
-          <li href='#' className="hover:text-[#06286E] hover:underline cursor-pointer text-gray-600 m-2 sm:m-4 font-inter font-normal leading-10 text-lg">
-            FAQ
-          </li>
-          <button className=" w-24  sm:w-32 h-10 sm:h-12 pt-2.5 sm:pt-2.5 pr-8 sm:pr-10 pb-2.5 sm:pb-3 pl-8 sm:pl-10 gap-2 text-base sm:text-lg leading-5 font-medium font-inter bg-gradient-to-b from-blue-900 to-blue-600  text-white rounded-full shadow-md  ">
-            Login
-          </button>
-        </ul>
+            <li href='#' className="hover:text-[#06286E] hover:underline cursor-pointer text-gray-600 m-2 sm:m-4 font-inter font-normal leading-10 text-lg">
+              Home
+            </li>
+            <li href='#' className="hover:text-[#06286E] hover:underline cursor-pointer  text-gray-600 m-2 sm:m-4 font-inter font-normal leading-10 text-lg">
+              Flashcard
+            </li>
+            <li href='#' className="hover:text-[#06286E] hover:underline cursor-pointer text-gray-600 m-2 sm:m-4 font-inter font-normal leading-10 text-lg">
+              Contact
+            </li>
+            <li href='#' className="hover:text-[#06286E] hover:underline cursor-pointer text-gray-600 m-2 sm:m-4 font-inter font-normal leading-10 text-lg">
+              FAQ
+            </li>
+            <button className=" w-24  sm:w-32 h-10 sm:h-12 pt-2.5 sm:pt-2.5 pr-8 sm:pr-10 pb-2.5 sm:pb-3 pl-8 sm:pl-10 gap-2 text-base sm:text-lg leading-5 font-medium font-inter bg-gradient-to-b from-blue-900 to-blue-600  text-white rounded-full shadow-md  ">
+              Login
+            </button>
+          </ul>
 
         </section>
 

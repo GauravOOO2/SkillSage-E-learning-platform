@@ -16,13 +16,13 @@ const Tabs = () => {
           Flashcard
         </p>
       </div>
-      <div className='w-4 sm:w-6 pt-3 sm:pt-0.5 mg:pt-0.5'>
+      <div className='w-4 sm:w-6 pt-3.5 sm:pt-0.5 mg:pt-0.5'>
         <img src={arrowIcon} alt='arrow' />
       </div>
       <p className='hover:text-[#06286E] hover:underline cursor-pointer	text-0  sm:text-[15px] md:text-[18px] text-gray-500 leading-5 content-center font-inter font-normal'>
         Mathematics
       </p>
-      <div className='w-4 sm:w-6 pt-4 sm:pt-0.5 mg:pt-0.5 '>
+      <div className='w-4 sm:w-6 pt-3.5 sm:pt-0.5 mg:pt-0.5 '>
         <img src={arrowIcon} alt='arrow' />
       </div>
       <p className='hover:text-[#06286E] hover:underline cursor-pointer	text-0 sm:text-[15px] md:text-[18px] text-blue-900 font-semibold leading-5 content-center font-inter'>
