@@ -50,22 +50,22 @@ const BodyDivision2 = () => {
       </div>
   
       {/* Control Buttons */}
-      <div className='flex justify-around pt-4 my-2'>
-        <div className='w-8 h-8 sm:w-10 sm:h-10 pt-3.5'>
+      <div className=' flex justify-around pt-4 my-2'>
+        <div className='cursor-pointer w-8 h-8 sm:w-10 sm:h-10 pt-3.5'>
           <img src={refreshButton} alt='refresh' />
         </div>
-        <div className='w-14 h-14 sm:w-16 sm:h-16'>
+        <div className='cursor-pointer w-14 h-14 sm:w-16 sm:h-16'>
           <img src={backButton} alt='return' />
         </div>
         <div>
-          <p className='font-inter font-bold text-2xl sm:text-3xl leading-7 pt-3'>
+          <p className='cursor-pointer font-inter font-bold text-2xl sm:text-3xl leading-7 pt-3'>
             01/10
           </p>
         </div>
-        <div className='w-14 h-14 sm:w-16 sm:h-16'>
+        <div className='cursor-pointer w-14 h-14 sm:w-16 sm:h-16'>
           <img src={forwardButton} alt='forward' />
         </div>
-        <div className='w-7 h-8 sm:w-8 sm:h-10 pt-3.5'>
+        <div className='cursor-pointer w-7 h-8 sm:w-8 sm:h-10 pt-3.5'>
           <img src={expandButton} alt='Full Screen' />
         </div>
       </div>

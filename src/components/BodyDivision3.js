@@ -11,7 +11,7 @@ const BodyDivision3 = () => {
     <img className='w-auto h-12 sm:h-16 lg:h-20' src={LogoLetters} alt='Logo' />
   </div>
 
-  <div className='flex items-center sm:pt-10 pl-4 pt-3 '>
+  <div className='cursor-pointer flex items-center sm:pt-10 pl-4 pt-3 '>
     <div className='w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 top-0.5 sm:top-1.5 left-0.5 sm:left-1.5'>
       <img src={addButton} alt='Add' />
     </div>

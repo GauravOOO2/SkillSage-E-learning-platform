@@ -6,7 +6,7 @@ const Tabs = () => {
   return (
     <div className='  flex mx-4 sm:mx-8 md:mx-12 lg:mx-16 my-8 sm:my-12'>
       <div className='flex items-center'>
-        <div className='h-5 w-5 sm:h-6 sm:w-6 top-1 left-1.5'>
+        <div className='cursor-pointer h-5 w-5 sm:h-6 sm:w-6 top-1 left-1.5'>
           <img src={homeIcon} alt='home' />
         </div>
         <div className='w-4 sm:w-6 pt-1 sm:pt-0.5 mg:pt-0.5 '>

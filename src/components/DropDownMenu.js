@@ -15,7 +15,7 @@ const DropDownMenu = () => {
       <p className='font-inter font-bold text-3xl sm:text-4xl lg:text-5xl leading-10 tracking-widest bg-gradient-to-b from-[rgba(6,40,110,1)] to-[rgba(22,78,192,1)] bg-clip-text text-transparent mx-4 sm:mx-14 my-4 sm:my-8'>
         FAQ
       </p>
-      <div className='w-full pr-6 sm:w-3/4 sm:pr-5 lg:w-3/6 gap-4 sm:gap-8 mx-4 sm:mx-14 my-4 sm:my-8'>
+      <div className='cursor-pointer w-full pr-6 sm:w-3/4 sm:pr-5 lg:w-3/6 gap-4 sm:gap-8 mx-4 sm:mx-14 my-4 sm:my-8'>
         {dropDowns.map((dropDown, index) => (
           <div key={index} className='my-4 sm:my-6'>
             <div
