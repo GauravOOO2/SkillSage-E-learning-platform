@@ -13,20 +13,20 @@ const BodyDivision2 = () => {
     {/* Navigation Options */}
     <div className='flex flex-wrap justify-center gap-3.5 sm:gap-6 my-4'>
       <div>
-        <p className='underline decoration-solid w-auto h-8 px-3.5 gap-2.5 text-[#06286E] font-inter font-bold text-lg leading-6'>
+        <p className=' hover:text-[#06286E] hover:underline cursor-pointer	 underline decoration-solid w-auto h-8 px-3.5 gap-2.5 text-[#06286E] font-inter font-bold text-lg leading-6'>
           Study
         </p>
       </div>
-      <div className='w-auto h-8 px-3.5 gap-2.5 font-inter font-medium leading-6 text-gray-500'>
+      <div className=' hover:text-[#06286E] hover:underline cursor-pointer	 w-auto h-8 px-3.5 gap-2.5 font-inter font-medium leading-6 text-gray-500'>
         <p>Quiz</p>
       </div>
-      <div className='w-auto h-8 px-3.5 gap-2.5 font-inter font-medium leading-6 text-gray-500'>
+      <div className='hover:text-[#06286E] hover:underline cursor-pointer	 w-auto h-8 px-3.5 gap-2.5 font-inter font-medium leading-6 text-gray-500'>
         <p>Test</p>
       </div>
-      <div className='w-auto h-8 px-3.5 gap-2.5 font-inter font-medium leading-6 text-gray-500'>
+      <div className='hover:text-[#06286E] hover:underline cursor-pointer	 w-auto h-8 px-3.5 gap-2.5 font-inter font-medium leading-6 text-gray-500'>
         <p>Game</p>
       </div>
-      <div className='w-auto h-8 px-3.5 gap-2.5 font-inter font-medium leading-6 text-gray-500'>
+      <div className='hover:text-[#06286E] hover:underline cursor-pointer	 w-auto h-8 px-3.5 gap-2.5 font-inter font-medium leading-6 text-gray-500'>
         <p>Others</p>
       </div>
     </div>
